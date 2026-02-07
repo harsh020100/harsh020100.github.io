@@ -2,7 +2,7 @@
 title: "Hello World"
 date: 2026-02-07
 categories: [Blog]
-tags: [Intro]
+tags: [Intro, Harsh Srivastava]
 ---
 
 ## 👋 Hello World — I’m Harsh Srivastava
@@ -28,11 +28,11 @@ While learning and working in cybersecurity, I realized that documenting practic
 
 Through this platform, I aim to share:
 
-* Pentesting lab walkthroughs (e.g., PortSwigger)
-* Vulnerability discovery and analysis
 * Exploitation techniques
+* Research notes from IoT & OT and Applications security testing
+* Vulnerability discovery and analysis
 * Security tools and methodologies
-* Research notes from IoT & OT testing
+* Pentesting lab walkthroughs 
 
 This blog serves as both my knowledge archive and a resource for others in the security community.
 
