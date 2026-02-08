@@ -16,7 +16,7 @@ order: 1
 
 ## 🧭 Who Am I
 
-I am a passionate **Cyber Security Engineer and Pentester** with a strong focus on identifying and exploiting real-world vulnerabilities across **IoT devices, Operational Technology (OT), and Web Applications**.
+I am a passionate **Cyber Security Engineer** with a strong focus on identifying and exploiting real-world vulnerabilities across **IoT devices, Operational Technology (OT), and Web and Mobile Applications**.
 
 My work revolves around understanding attacker mindsets, analyzing complex systems, and performing deep security assessments on connected devices and industrial environments.
 
