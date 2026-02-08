@@ -2,7 +2,7 @@
 title: "Hello World"
 date: 2026-02-07
 categories: [Blog]
-tags: [Intro, Harsh Srivastava]
+tags: [Intro]
 ---
 
 ## 👋 Hello World — I’m Harsh Srivastava
