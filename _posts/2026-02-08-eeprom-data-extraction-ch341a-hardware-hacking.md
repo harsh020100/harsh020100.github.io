@@ -2,8 +2,8 @@
 layout: post
 title: "EEPROM Memory Reading of a Printer using CH341A "
 date: 2026-02-08
-categories: [Hardware Security, Embedded Systems, IoT Pentesting, Hardware Hacking]
-tags: [CH341A, EEPROM, 24C64, SPI Flash, Hardware Hacking, Reverse Engineering, Printer Security, EPROM Extraction, Harsh Srivastava, harshsecurity, harsh, Harsh]
+categories: [Hardware Security, IoT Pentesting, Hardware Hacking]
+tags: [CH341A, EEPROM, 24C64, SPI Flash, Hardware Hacking, Reverse Engineering, Printer Security, EPROM Extraction, Harsh Srivastava, harshsecurity, Harsh]
 author: harsh
 pin: false
 image:
