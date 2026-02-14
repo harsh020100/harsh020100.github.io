@@ -84,29 +84,39 @@ This was the **primary target** for this exercise.
 
 ![CH341A Pin Mapping](https://github.com/user-attachments/assets/4d222fc7-a23f-4ed6-ad70-e48c15d8bc41){: .shadow }
 
+If we take the USB connector as reference, the first 8 pins (1–8) of the CH341A ZIF socket are for 25xxx SPI flash, and the next 8 pins (9–16) are for 24xxx I²C EEPROM
+
 ### Rule of Thumb
 
-- **24xx EEPROM** → Pins **9–16**
-- **25xx Flash** → Pins **1–8**
+- **24xx I2C EEPROM** → Use the 24xx/I2C socket block (**Pin 9–16**)
+- **25xx SPI Flash** → Use the 24xx/I2C socket block (**Pin 1-8**)
 
 Incorrect pin usage will result in detection failure or corrupted reads.
 
 ---
 
-## 🔗 Wiring: SOIC-8 Clip to CH341A (24C64)
+## 🔗 SOIC-8 Clip Clip Placement
 
-| EEPROM Pin | Signal | CH341A Pin |
-|-----------|--------|------------|
-| 1 | A0 | 9 |
-| 2 | A1 | 10 |
-| 3 | A2 | 11 |
-| 4 | GND | 12 |
-| 5 | SDA | 13 |
-| 6 | SCL | 14 |
-| 7 | WP | 15 |
-| 8 | VCC (3.3V) | 16 |
+When using a SOIC-8 test clip with the CH341A programmer, no manual wiring is required. The clip cable is internally mapped for EEPROM/FLASH communication, so you only need to ensure correct alignment and socket placement. For 24xxx (I²C) EEPROMs, the SOIC-8 clip must be plugged into the 24xx section of the CH341A ZIF socket (pins 9–16). When viewed from the USB connector side, the right half of the socket is reserved for 24xxx devices, and Pin-1 of the EEPROM must be aligned with the 24xx block Pin-1, which corresponds to physical Pin-16 of the ZIF socket. To avoid confusion, always refer to the above image for correct orientation and placement.
 
-🔴 **Red wire on SOIC clip indicates Pin-1**
+🔴 **Red wire on SOIC clip indicates Pin-1 of the EEPROM/FLASH memory**
+
+---
+
+---
+
+## 🧭 Placement Steps
+
+- **1. Locate Pin-1 on the EEPROM chip**
+  - Identified by a dot, notch, or bevel mark on the IC.
+- **2. Locate the red wire on the SOIC clip**
+  - The red wire indicates Pin-1 of the clip.
+- **3. Attach the clip to the chip**
+  - Ensure the red wire aligns with Pin-1 of the EEPROM.
+- **4. Insert the clip cable into CH341A**
+  - Place it in the 24xx / I²C socket block (Pins 9–16)
+  - Place the pin 1 (Red Wire) of SOIC clip on the 24xx block pin 1 (refer to the  above image for correct orientation and placement) 
+  - Do NOT insert it in the 25xx block.
 
 ---
 
