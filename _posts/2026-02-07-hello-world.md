@@ -1,50 +1,78 @@
 ---
-title: "Hello World"
+title: "About Me"
 date: 2026-02-07
-categories: [Blog]
-tags: [Intro]
+categories: [About]
+tags: [Profile]
 ---
 
-## 👋 Hello World — I’m Harsh Srivastava
+## 👤 About Harsh Srivastava
 
-Welcome to my cybersecurity research blog.
+**IoT/OT Penetration Tester** | Embedded Security | Hardware Security | Firmware Analysis
 
-I’m a Security Researcher with a primary focus on **IoT, OT (Operational Technology), and Application Security**. This blog is my personal space to document hands-on penetration testing, vulnerability research, lab experiments, and real-world security learnings.
+📧 harsh01200@gmail.com &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/harsh01200/) &nbsp;|&nbsp; 🌐 harshsecurity.com
 
-### 🔍 What I Do
+---
 
-My work revolves around identifying, analyzing, and understanding security weaknesses across:
+### 🧭 Professional Summary
 
-* IoT devices and embedded systems
-* Industrial/OT environments
-* Web and application infrastructures
-* Network and communication protocols
+I'm an IoT/OT Penetration Tester with hands-on experience in embedded device security, industrial control systems, firmware analysis, and hardware penetration testing. I specialize in assessing industrial and IoT communication protocols, firmware extraction, UART/JTAG analysis, protocol fuzzing, packet manipulation, replay testing, and industrial network traffic analysis — with additional experience in embedded device assessment, firmware upgrade validation, and hardware interface analysis within OT environments.
 
-I approach security with an offensive mindset — thinking like an attacker to help build stronger defenses.
+---
 
-### 🧪 Why This Blog Exists
+### 🛠️ Technical Skills
 
-While learning and working in cybersecurity, I realized that documenting practical knowledge is just as important as gaining it.
+**Protocols:** Modbus, BACnet, DNP3, Profinet, Ethernet/IP, CAN Bus, MQTT, BLE, Zigbee, SNMP
 
-Through this platform, I aim to share:
+**Hardware Security:** Firmware Extraction, UART, JTAG, SPI Flash Dumping, Hardware Interface Analysis
 
-* Exploitation techniques
-* Research notes from IoT & OT and Applications security testing
-* Vulnerability discovery and analysis
-* Security tools and methodologies
-* Pentesting lab walkthroughs 
+**Tools:** Nmap, YABE, Ubertooth, Bus Pirate, JTAGulator, Wireshark, Binwalk, Custom Scripts
 
-This blog serves as both my knowledge archive and a resource for others in the security community.
+---
 
-### 🚀 My Goal
+### 💼 Experience
 
-To continuously explore modern and industrial attack surfaces, contribute to the security ecosystem, and grow as a well-rounded offensive security professional.
+**IoT/OT Penetration Tester** — Tata Consultancy Services (TCS), Kolkata, India
+*July 2024 – Present*
 
-### 🤝 Let’s Connect
+* Conduct security assessments and penetration testing of embedded systems, industrial devices, HMIs, gateways, and IoT products used in industrial automation and energy management solutions for a leading global industrial technology company.
+* Perform security assessments of industrial and IoT communication protocols including Modbus TCP/RTU, BACnet, DNP3, Profinet, Ethernet/IP, CAN Bus, MQTT, BLE, Zigbee, and SNMP across OT and embedded environments.
+* Execute firmware extraction and analysis using UART, JTAG, SPI flash dumping, bootloader interaction, and filesystem extraction techniques.
+* Conduct hardware penetration testing through UART console access, JTAG enumeration, memory dumping, and low-level embedded interface analysis.
+* Perform protocol fuzzing, packet manipulation, replay testing, and network traffic analysis using Wireshark, Scapy, tcpdump, and embedded security testing methodologies.
+* Assess security posture of industrial communication environments by identifying weak authentication, insecure protocol configurations, exposed services, and potential attack paths.
+* Collaborate with engineering and product teams to reproduce security findings, validate fixes, and provide remediation recommendations aligned with OT security best practices.
 
-If you’re passionate about cybersecurity, IoT/OT security, or penetration testing, feel free to follow my work and connect with me through this blog.
+---
 
-Thanks for stopping by — more research and lab write-ups coming soon.
+### 🎓 Education
+
+**B.Tech, Computer Science & Engineering** (IoT, Cyber Security & Blockchain)
+Institute of Engineering and Management, Kolkata, India — GPA: 9.12
+*August 2021 – August 2024*
+
+**Diploma, Computer Science & Technology**
+Elitte Institute of Engineering and Management, Kolkata, India — GPA: 8.60
+*August 2018 – August 2021*
+
+---
+
+### 📜 Certifications
+
+* Certified Ethical Hacker (CEH)
+* IBM Cybersecurity Analyst (Professional Certificate, Authorized by IBM)
+* Ethical Hacking (NPTEL, IIT Kharagpur)
+
+---
+
+### 🏆 Honors & Awards
+
+* **Certificate of Appreciation – Beyond Excellence**, Tata Consultancy Services (TCS) — for outstanding contribution and commitment in the Schneider Electric Penetration Testing engagement (2026)
+* **Star of the Quarter Award**, Tata Consultancy Services (TCS) — for outstanding contribution and performance in OT security assessment activities
+
+---
+
+### 🤝 Let's Connect
+
+If you're passionate about IoT/OT security, embedded systems, or industrial penetration testing, feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/in/harsh01200/).
 
 — **Harsh Srivastava**
-
